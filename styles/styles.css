@@ -5,3 +5,17 @@
     display: none;
     position: relative;
 }
+
+header {
+    
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+    
+}
+
+times {
+    float: left;
+    display: inline-flex;
+}
