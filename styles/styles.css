@@ -6,7 +6,7 @@
     position: relative;
 }
 
-header {
+#header {
     
     background: black;
     color: white;
@@ -19,3 +19,21 @@ times {
     float: left;
     display: inline-flex;
 }
+
+#content {
+    
+    min-height: calc(100vh - 25px);
+    
+}
+
+#footer {
+    
+    height: 25px;
+    padding-top: 4px;
+    text-align: center;
+    background-color: black;
+    color: white;
+    
+}
+
+

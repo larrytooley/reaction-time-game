@@ -9,28 +9,30 @@
     	<link rel="stylesheet" type="text/css" href="styles/styles.css"> 
     </head>
     <body>
-        <header>
-            <h1>Reaction Time Tester</h1>
-        </header>
-        
-        <p>Click on the shapes as fast as you can!</p>
-        
-        <div class="times">Last: <span id="timeTaken"></span></div>
-        <div class="times">Best: <span id="timeBest"></span></div>
-        <div class="times">Worst: <span id="timeWorst"></span></div>
-        <div class="times">Average: <span id="timeAverage"></span></div>
-        
-        <div id="reset">
-            Reset
+        <div id="content">
+            <div id="header" role="heading">
+                <h1>Reaction Time Tester</h1>
+            </div>
+
+            <p>Click on the shapes as fast as you can!</p>
+
+            <div class="times">Last: <span id="timeTaken"></span></div>
+            <div class="times">Best: <span id="timeBest"></span></div>
+            <div class="times">Worst: <span id="timeWorst"></span></div>
+            <div class="times">Average: <span id="timeAverage"></span></div>
+
+            <div id="reset">
+                Reset
+            </div>
+            <div id="shape"></div>
         </div>
-        <div id="shape"></div>
+        <div id="footer">
+            <div id="copyright"></div>
+        </div>
         
-        <script type="text/javascript" src="scripts/scripts.js"></script>
-<!--
-TODO: Add styling to page
-TODO: create a playing field
-TODO: Track min and max
-TODO: add a reset for score
--->
+<!-- Javascript -->
+        
+    <script type="text/javascript" src="scripts/scripts.js"></script>
+        
     </body>
 </html>
