@@ -71,5 +71,4 @@ document.getElementById('shape').onclick = function () {
 var year = now.getFullYear();
 var copyright = '&copy; ' + year + ' Larry Tooley';
 
-
 document.getElementById('copyright').innerHTML = copyright;

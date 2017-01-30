@@ -16,9 +16,24 @@
     
 }
 
-times {
+div.times {
     float: left;
     display: inline-flex;
+    min-width: 25%;
+}
+
+#lastTime {
+    padding-left: 12%;
+}
+
+#resetButton {
+    text-align: center;
+}
+
+button {
+    background: blue;
+    color: white;
+    margin-top: 10px;
 }
 
 #content {
