@@ -1,5 +1,9 @@
 var now = new Date();
 var start = now.getTime();
+
+//TODO: Need to think of a way to handle setting best.
+var best = 100;
+var worst = 0;
                 
 function makeShapeAppear() {
 
@@ -47,7 +51,17 @@ document.getElementById('shape').onclick = function () {
     var end = new Date().getTime(),
         timeTaken = (end - start) / 1000;
 
+        if (timeTaken > worst) {
+            worst = timeTaken;
+        }
+
+        if (timeTaken < best) {
+            best = timeTaken;
+        }
+
     document.getElementById('timeTaken').innerHTML = timeTaken + 's';
+    document.getElementById('timeBest').innerHTML = best + 's';
+    document.getElementById('timeWorst').innerHTML = worst + 's';
 
     appearAfterDelay();
 
