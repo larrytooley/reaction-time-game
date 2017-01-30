@@ -1,4 +1,5 @@
-var start = new Date().getTime();
+var now = new Date();
+var start = now.getTime();
                 
 function makeShapeAppear() {
 
@@ -53,8 +54,7 @@ document.getElementById('shape').onclick = function () {
 };
 
 // footer
-var today = new Date();
-var year = today.getFullYear();
+var year = now.getFullYear();
 var copyright = '&copy; ' + year + ' Larry Tooley';
 
 
