@@ -14,13 +14,15 @@
     <div id="content">
         <div id="header" role="heading">
             <h1>Reaction Time Game</h1>
+            <p>Click on the shapes as fast as you can!<p>
         </div>
-        <p>Click on the shapes as fast as you can!</p>
-        <div class="times" id="lastTime">Last: <span id="timeTaken"></span></div>
-        <div class="times">Best: <span id="timeBest"></span></div>
-        <div class="times">Worst: <span id="timeWorst"></span></div>
-        <div id="resetButton">
-            <button onClick="window.location.reload()">Restart Game</button>
+       <div id="times">
+            <div class="times" id="lastTime">Last: <span id="timeTaken"></span></div>
+            <div class="times">Best: <span id="timeBest"></span></div>
+            <div class="times" id="worstTime">Worst: <span id="timeWorst"></span></div>
+        </div> 
+        <div id="resetButton" onClick="window.location.reload()">
+            <h3>Restart Game</h3>
         </div>
         <div id="shape"></div>
     </div>

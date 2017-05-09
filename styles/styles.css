@@ -16,6 +16,14 @@
     
 }
 
+h1 {
+    margin: -5px 0;
+}
+
+div#times {
+    background: #aaaaaa;
+}
+
 div.times {
     float: left;
     display: inline-flex;
@@ -26,8 +34,14 @@ div.times {
     padding-left: 12%;
 }
 
+#worstTime {
+    padding-right: 12%;
+}
+
 #resetButton {
     text-align: center;
+    background: darkred;
+    color: white;
 }
 
 button {
